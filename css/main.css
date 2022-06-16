@@ -1,0 +1,12 @@
+main {
+	display: flex;
+}
+
+.left_main_block {
+	width: calc(100% - 560px);
+}
+
+hr {
+	padding-bottom: 67px;
+	color:#F8FAFC;
+}

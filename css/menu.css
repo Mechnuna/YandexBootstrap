@@ -1,0 +1,68 @@
+/* Общие */
+
+.label_left_menu {
+    display: flex;
+}
+
+
+/* Левое меню */
+
+.left_menu {
+	width: 237px;
+	height: 100vh;
+}
+
+.left_menu1{
+	background: #64748B;
+}
+
+.nav1 {
+	--bs-nav-link-color: var(--bs-body-bg);
+}
+
+.icon_menu_left {
+	margin-right: 14px;
+}
+
+.nav-pills_1 .nav-link.active, .nav-pills .show>.nav-link {
+    background: rgba(255, 255, 255, 0.12);
+}
+.nav-pills_1 .nav-link {
+    background: 0 0;
+    border: 0;
+    border-radius: 20px;
+}
+.nav-link {
+    display: block;
+    padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+    font-size: var(--bs-nav-link-font-size);
+    font-weight: var(--bs-nav-link-font-weight);
+    color: var(--bs-nav-link-color);
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+
+/* Правое меню */
+.left_menu2{
+	background: #F8FAFC;
+    color: #64748B;
+}
+
+.link-dark_my {
+    color: #64748B;
+}
+
+.nav-pills_2 .nav-link.active, .nav-pills .show>.nav-link {
+    background: rgba(100, 116, 139, 0.12);
+}
+.nav-pills_2 .nav-link {
+    background: 0 0;
+    border: 0;
+    border-radius: 20px;
+}
+
+.nav2 {
+    color: #64748B;
+    --bs-nav-link-color: #64748B;
+    --bs-nav-link-hover-color: #64748B;
+}

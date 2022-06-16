@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Bootstrap</title>
+	<!-- Только CSS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+	<link href="css/main.css" rel="stylesheet">
+	<link href="css/menu.css" rel="stylesheet">
+	<link href="css/header.css" rel="stylesheet">
+	<!-- Пакет JavaScript с Popper -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+		crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+	<main>
+		<!-- Боковое меню -->
+		<div class="left_menu left_menu1 d-flex flex-column flex-shrink-0 p-3 ">
+			<a href="/" class="label_left_menu align-items-center mb-3 mb-md-0 me-md-auto text-decoration-none link-light">
+				<svg style="margin-right: 16px;" width="18" height="14" viewBox="0 0 18 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path d="M1 0C0.447715 0 0 0.447715 0 1C0 1.55228 0.447715 2 1 2V0ZM17 2C17.5523 2 18 1.55228 18 1C18 0.447715 17.5523 0 17 0V2ZM1 6C0.447715 6 0 6.44772 0 7C0 7.55228 0.447715 8 1 8V6ZM17 8C17.5523 8 18 7.55228 18 7C18 6.44772 17.5523 6 17 6V8ZM1 12C0.447715 12 0 12.4477 0 13C0 13.5523 0.447715 14 1 14V12ZM17 14C17.5523 14 18 13.5523 18 13C18 12.4477 17.5523 12 17 12V14ZM1 2H17V0H1V2ZM1 8H17V6H1V8ZM1 14H17V12H1V14Z" fill="white"/>
+					</svg>
+				<span class="fs-4">SPBEAUTY</span>
+			</a>
+			<hr>
+			<ul class="nav nav1 nav-pills_1 flex-column mb-auto">
+				<li class="nav-item">
+					<a href="#" class="nav-link active" aria-current="page">
+						<svg class="icon_menu_left" width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path
+								d="M1.5999 0.200012C0.937161 0.200012 0.399902 0.73727 0.399902 1.40001C0.399902 2.06275 0.937161 2.60001 1.5999 2.60001H3.06297L3.42964 4.0667C3.43349 4.08366 3.4377 4.10048 3.44226 4.11716L5.07093 10.6319L3.99985 11.703C2.48793 13.2149 3.55873 15.8 5.6969 15.8H15.9998C16.6626 15.8 17.1998 15.2628 17.1998 14.6C17.1998 13.9373 16.6626 13.4 15.9998 13.4L5.6969 13.4L6.8969 12.2H14.7999C15.2544 12.2 15.6699 11.9432 15.8732 11.5367L19.4732 4.33667C19.6592 3.96468 19.6393 3.52291 19.4207 3.16913C19.202 2.81535 18.8158 2.60001 18.3999 2.60001H5.53683L5.16407 1.10897C5.03052 0.574769 4.55054 0.200012 3.9999 0.200012H1.5999Z"
+								fill="white" />
+							<path
+								d="M17.1999 18.8C17.1999 19.7941 16.394 20.6 15.3999 20.6C14.4058 20.6 13.5999 19.7941 13.5999 18.8C13.5999 17.8059 14.4058 17 15.3999 17C16.394 17 17.1999 17.8059 17.1999 18.8Z"
+								fill="white" />
+							<path
+								d="M5.7999 20.6C6.79402 20.6 7.5999 19.7941 7.5999 18.8C7.5999 17.8059 6.79402 17 5.7999 17C4.80579 17 3.9999 17.8059 3.9999 18.8C3.9999 19.7941 4.80579 20.6 5.7999 20.6Z"
+								fill="white" />
+						</svg>
+						Услуги
+					</a>
+				</li>
+				<li>
+					<a href="#" class="nav-link link-light">
+						<svg class="icon_menu_left" width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path
+								d="M1.5999 0.200012C0.937161 0.200012 0.399902 0.73727 0.399902 1.40001C0.399902 2.06275 0.937161 2.60001 1.5999 2.60001H3.06297L3.42964 4.0667C3.43349 4.08366 3.4377 4.10048 3.44226 4.11716L5.07093 10.6319L3.99985 11.703C2.48793 13.2149 3.55873 15.8 5.6969 15.8H15.9998C16.6626 15.8 17.1998 15.2628 17.1998 14.6C17.1998 13.9373 16.6626 13.4 15.9998 13.4L5.6969 13.4L6.8969 12.2H14.7999C15.2544 12.2 15.6699 11.9432 15.8732 11.5367L19.4732 4.33667C19.6592 3.96468 19.6393 3.52291 19.4207 3.16913C19.202 2.81535 18.8158 2.60001 18.3999 2.60001H5.53683L5.16407 1.10897C5.03052 0.574769 4.55054 0.200012 3.9999 0.200012H1.5999Z"
+								fill="white" />
+							<path
+								d="M17.1999 18.8C17.1999 19.7941 16.394 20.6 15.3999 20.6C14.4058 20.6 13.5999 19.7941 13.5999 18.8C13.5999 17.8059 14.4058 17 15.3999 17C16.394 17 17.1999 17.8059 17.1999 18.8Z"
+								fill="white" />
+							<path
+								d="M5.7999 20.6C6.79402 20.6 7.5999 19.7941 7.5999 18.8C7.5999 17.8059 6.79402 17 5.7999 17C4.80579 17 3.9999 17.8059 3.9999 18.8C3.9999 19.7941 4.80579 20.6 5.7999 20.6Z"
+								fill="white" />
+						</svg>
+						Услуги
+					</a>
+				</li>
+				<li>
+					<a href="#" class="nav-link link-light">
+						<svg class="icon_menu_left" width="22" height="18" viewBox="0 0 22 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path
+								d="M9.79995 4.19998C9.79995 6.1882 8.18818 7.79998 6.19995 7.79998C4.21173 7.79998 2.59995 6.1882 2.59995 4.19998C2.59995 2.21175 4.21173 0.599976 6.19995 0.599976C8.18818 0.599976 9.79995 2.21175 9.79995 4.19998Z"
+								fill="white" />
+							<path
+								d="M19.4 4.19998C19.4 6.1882 17.7882 7.79998 15.8 7.79998C13.8117 7.79998 12.2 6.1882 12.2 4.19998C12.2 2.21175 13.8117 0.599976 15.8 0.599976C17.7882 0.599976 19.4 2.21175 19.4 4.19998Z"
+								fill="white" />
+							<path
+								d="M14.5149 17.4C14.571 17.0081 14.6 16.6074 14.6 16.2C14.6 14.2378 13.9272 12.4327 12.7997 11.0029C13.6823 10.4922 14.707 10.2 15.8 10.2C19.1137 10.2 21.8 12.8863 21.8 16.2V17.4H14.5149Z"
+								fill="white" />
+							<path
+								d="M6.19995 10.2C9.51366 10.2 12.2 12.8863 12.2 16.2V17.4H0.199951V16.2C0.199951 12.8863 2.88624 10.2 6.19995 10.2Z"
+								fill="white" />
+						</svg>
+
+						Клиенты
+					</a>
+				</li>
+				<li>
+					<a href="#" class="nav-link link-light">
+						<svg class="icon_menu_left" width="20" height="19" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path
+								d="M9.9999 0.400024C9.33716 0.400024 8.7999 0.937283 8.7999 1.60002V2.80002C8.7999 3.46277 9.33716 4.00002 9.9999 4.00002C10.6626 4.00002 11.1999 3.46277 11.1999 2.80002V1.60002C11.1999 0.937283 10.6626 0.400024 9.9999 0.400024Z"
+								fill="white" />
+							<path fill-rule="evenodd" clip-rule="evenodd"
+								d="M2.7999 2.80002H6.3999C6.3999 4.78825 8.01168 6.40003 9.9999 6.40003C11.9881 6.40003 13.5999 4.78825 13.5999 2.80002H17.1999C18.5254 2.80002 19.5999 3.87454 19.5999 5.20003V16C19.5999 17.3255 18.5254 18.4 17.1999 18.4H2.7999C1.47442 18.4 0.399902 17.3255 0.399902 16V5.20003C0.399902 3.87454 1.47442 2.80002 2.7999 2.80002ZM5.7999 11.2C6.79401 11.2 7.5999 10.3941 7.5999 9.40003C7.5999 8.40591 6.79401 7.60003 5.7999 7.60003C4.80579 7.60003 3.9999 8.40591 3.9999 9.40003C3.9999 10.3941 4.80579 11.2 5.7999 11.2ZM8.74048 16C8.77983 15.8062 8.80049 15.6055 8.80049 15.4C8.80049 13.7432 7.45734 12.4 5.80049 12.4C4.14363 12.4 2.80049 13.7432 2.80049 15.4C2.80049 15.6055 2.82115 15.8062 2.8605 16H8.74048ZM12.3999 8.80003C11.7372 8.80003 11.1999 9.33728 11.1999 10C11.1999 10.6628 11.7372 11.2 12.3999 11.2H15.9999C16.6626 11.2 17.1999 10.6628 17.1999 10C17.1999 9.33728 16.6626 8.80003 15.9999 8.80003H12.3999ZM11.1999 13.6C11.1999 12.9373 11.7372 12.4 12.3999 12.4H14.7999C15.4626 12.4 15.9999 12.9373 15.9999 13.6C15.9999 14.2628 15.4626 14.8 14.7999 14.8H12.3999C11.7372 14.8 11.1999 14.2628 11.1999 13.6Z"
+								fill="white" />
+						</svg>
+
+						Сотрудники
+					</a>
+				</li>
+				<li>
+					<a href="#" class="nav-link link-light">
+						<svg class="icon_menu_left" width="16" height="20" viewBox="0 0 16 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path fill-rule="evenodd" clip-rule="evenodd"
+								d="M3.20005 0.400024C1.87457 0.400024 0.800049 1.47454 0.800049 2.80002V17.2C0.800049 18.5255 1.87457 19.6 3.20005 19.6H12.8C14.1255 19.6 15.2 18.5255 15.2 17.2V2.80002C15.2 1.47454 14.1255 0.400024 12.8 0.400024H3.20005ZM4.40005 2.80002C3.73731 2.80002 3.20005 3.33728 3.20005 4.00002C3.20005 4.66277 3.73731 5.20002 4.40005 5.20002H11.6C12.2628 5.20002 12.8 4.66277 12.8 4.00002C12.8 3.33728 12.2628 2.80002 11.6 2.80002H4.40005ZM11.6 11.2C12.2628 11.2 12.8 11.7373 12.8 12.4V16C12.8 16.6628 12.2628 17.2 11.6 17.2C10.9373 17.2 10.4 16.6628 10.4 16V12.4C10.4 11.7373 10.9373 11.2 11.6 11.2ZM8.00005 14.8C7.33731 14.8 6.80005 15.3373 6.80005 16C6.80005 16.6628 7.33731 17.2 8.00005 17.2H8.01205C8.67479 17.2 9.21205 16.6628 9.21205 16C9.21205 15.3373 8.67479 14.8 8.01205 14.8H8.00005ZM3.20005 16C3.20005 15.3373 3.73731 14.8 4.40005 14.8H4.41205C5.07479 14.8 5.61205 15.3373 5.61205 16C5.61205 16.6628 5.07479 17.2 4.41205 17.2H4.40005C3.73731 17.2 3.20005 16.6628 3.20005 16ZM4.40005 11.2C3.73731 11.2 3.20005 11.7373 3.20005 12.4C3.20005 13.0628 3.73731 13.6 4.40005 13.6H4.41205C5.07479 13.6 5.61205 13.0628 5.61205 12.4C5.61205 11.7373 5.07479 11.2 4.41205 11.2H4.40005ZM6.80005 12.4C6.80005 11.7373 7.33731 11.2 8.00005 11.2H8.01205C8.67479 11.2 9.21205 11.7373 9.21205 12.4C9.21205 13.0628 8.67479 13.6 8.01205 13.6H8.00005C7.33731 13.6 6.80005 13.0628 6.80005 12.4ZM11.6 7.60002C10.9373 7.60002 10.4 8.13728 10.4 8.80002C10.4 9.46277 10.9373 10 11.6 10H11.612C12.2748 10 12.812 9.46277 12.812 8.80002C12.812 8.13728 12.2748 7.60002 11.612 7.60002H11.6ZM6.80005 8.80002C6.80005 8.13728 7.33731 7.60002 8.00005 7.60002H8.01205C8.67479 7.60002 9.21205 8.13728 9.21205 8.80002C9.21205 9.46277 8.67479 10 8.01205 10H8.00005C7.33731 10 6.80005 9.46277 6.80005 8.80002ZM4.40005 7.60002C3.73731 7.60002 3.20005 8.13728 3.20005 8.80002C3.20005 9.46277 3.73731 10 4.40005 10H4.41205C5.07479 10 5.61205 9.46277 5.61205 8.80002C5.61205 8.13728 5.07479 7.60002 4.41205 7.60002H4.40005Z"
+								fill="white" />
+						</svg>
+						Финансы
+					</a>
+				</li>
+				<li>
+					<a href="#" class="nav-link link-light">
+						<svg class="icon_menu_left" width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path
+								d="M0.399902 10.2C0.399902 9.53723 0.937161 8.99998 1.5999 8.99998H3.9999C4.66264 8.99998 5.1999 9.53723 5.1999 10.2V16.2C5.1999 16.8627 4.66264 17.4 3.9999 17.4H1.5999C0.937161 17.4 0.399902 16.8627 0.399902 16.2V10.2Z"
+								fill="white" />
+							<path
+								d="M7.5999 5.39998C7.5999 4.73723 8.13716 4.19998 8.7999 4.19998H11.1999C11.8626 4.19998 12.3999 4.73723 12.3999 5.39998V16.2C12.3999 16.8627 11.8626 17.4 11.1999 17.4H8.7999C8.13716 17.4 7.5999 16.8627 7.5999 16.2V5.39998Z"
+								fill="white" />
+							<path
+								d="M14.7999 1.79998C14.7999 1.13723 15.3372 0.599976 15.9999 0.599976H18.3999C19.0626 0.599976 19.5999 1.13723 19.5999 1.79998V16.2C19.5999 16.8627 19.0626 17.4 18.3999 17.4H15.9999C15.3372 17.4 14.7999 16.8627 14.7999 16.2V1.79998Z"
+								fill="white" />
+						</svg>
+						Аналитика
+					</a>
+				</li>
+			</ul>
+			<div class="dropdown">
+				<!-- <a href="#" class="d-flex align-items-center link-light text-decoration-none" id="dropdownUser2"
+					data-bs-toggle="dropdown" aria-expanded="false">
+					<svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path
+							d="M3.0001 0.600006C1.67461 0.600006 0.600098 1.67452 0.600098 3.00001V5.40001C0.600098 6.72549 1.67461 7.80001 3.0001 7.80001H5.4001C6.72558 7.80001 7.8001 6.72549 7.8001 5.40001V3.00001C7.8001 1.67452 6.72558 0.600006 5.4001 0.600006H3.0001Z"
+							fill="white" />
+						<path
+							d="M3.0001 10.2C1.67461 10.2 0.600098 11.2745 0.600098 12.6V15C0.600098 16.3255 1.67461 17.4 3.0001 17.4H5.4001C6.72558 17.4 7.8001 16.3255 7.8001 15V12.6C7.8001 11.2745 6.72558 10.2 5.4001 10.2H3.0001Z"
+							fill="white" />
+						<path
+							d="M10.2001 3.00001C10.2001 1.67452 11.2746 0.600006 12.6001 0.600006H15.0001C16.3256 0.600006 17.4001 1.67452 17.4001 3.00001V5.40001C17.4001 6.72549 16.3256 7.80001 15.0001 7.80001H12.6001C11.2746 7.80001 10.2001 6.72549 10.2001 5.40001V3.00001Z"
+							fill="white" />
+						<path
+							d="M10.2001 12.6C10.2001 11.2745 11.2746 10.2 12.6001 10.2H15.0001C16.3256 10.2 17.4001 11.2745 17.4001 12.6V15C17.4001 16.3255 16.3256 17.4 15.0001 17.4H12.6001C11.2746 17.4 10.2001 16.3255 10.2001 15V12.6Z"
+							fill="white" />
+					</svg>
+					<p>Настройки</p>
+				</a> -->
+				<ul class="nav nav-pills_1 flex-column mb-auto">
+				<li>
+					<a href="#" class="nav-link link-light">
+						<svg class="icon_menu_left" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path
+								d="M3.0001 0.600006C1.67461 0.600006 0.600098 1.67452 0.600098 3.00001V5.40001C0.600098 6.72549 1.67461 7.80001 3.0001 7.80001H5.4001C6.72558 7.80001 7.8001 6.72549 7.8001 5.40001V3.00001C7.8001 1.67452 6.72558 0.600006 5.4001 0.600006H3.0001Z"
+								fill="white" />
+							<path
+								d="M3.0001 10.2C1.67461 10.2 0.600098 11.2745 0.600098 12.6V15C0.600098 16.3255 1.67461 17.4 3.0001 17.4H5.4001C6.72558 17.4 7.8001 16.3255 7.8001 15V12.6C7.8001 11.2745 6.72558 10.2 5.4001 10.2H3.0001Z"
+								fill="white" />
+							<path
+								d="M10.2001 3.00001C10.2001 1.67452 11.2746 0.600006 12.6001 0.600006H15.0001C16.3256 0.600006 17.4001 1.67452 17.4001 3.00001V5.40001C17.4001 6.72549 16.3256 7.80001 15.0001 7.80001H12.6001C11.2746 7.80001 10.2001 6.72549 10.2001 5.40001V3.00001Z"
+								fill="white" />
+							<path
+								d="M10.2001 12.6C10.2001 11.2745 11.2746 10.2 12.6001 10.2H15.0001C16.3256 10.2 17.4001 11.2745 17.4001 12.6V15C17.4001 16.3255 16.3256 17.4 15.0001 17.4H12.6001C11.2746 17.4 10.2001 16.3255 10.2001 15V12.6Z"
+								fill="white" />
+						</svg>
+						Настройки
+					</a>
+				</li>
+
+				<li>
+					<a href="#" class="nav-link link-light">
+						<svg class="icon_menu_left" width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path
+								d="M14.2929 12.2929C13.9024 12.6834 13.9024 13.3166 14.2929 13.7071C14.6834 14.0976 15.3166 14.0976 15.7071 13.7071L14.2929 12.2929ZM19 9L19.7071 9.70711C20.0976 9.31658 20.0976 8.68342 19.7071 8.29289L19 9ZM15.7071 4.29289C15.3166 3.90237 14.6834 3.90237 14.2929 4.29289C13.9024 4.68342 13.9024 5.31658 14.2929 5.70711L15.7071 4.29289ZM5 8C4.44772 8 4 8.44771 4 9C4 9.55228 4.44772 10 5 10V8ZM12 13C12 12.4477 11.5523 12 11 12C10.4477 12 10 12.4477 10 13H12ZM10 5C10 5.55228 10.4477 6 11 6C11.5523 6 12 5.55228 12 5H10ZM2 14V4H0V14H2ZM0 14C0 16.2091 1.79086 18 4 18V16C2.89543 16 2 15.1046 2 14H0ZM2 4C2 2.89543 2.89543 2 4 2V0C1.79086 0 0 1.79086 0 4H2ZM15.7071 13.7071L19.7071 9.70711L18.2929 8.29289L14.2929 12.2929L15.7071 13.7071ZM19.7071 8.29289L15.7071 4.29289L14.2929 5.70711L18.2929 9.70711L19.7071 8.29289ZM19 8L5 8V10L19 10V8ZM4 18H8V16H4V18ZM12 14V13H10V14H12ZM4 2H8V0H4V2ZM10 4V5H12V4H10ZM8 2C9.10457 2 10 2.89543 10 4H12C12 1.79086 10.2091 0 8 0V2ZM8 18C10.2091 18 12 16.2091 12 14H10C10 15.1046 9.10457 16 8 16V18Z"
+								fill="white" />
+						</svg>
+						Настройки
+					</a>
+				</li>
+				</ul>
+				<!-- <ul class="dropdown-menu text-small shadow" aria-labelledby="dropdownUser2">
+					<li><a class="dropdown-item" href="#">New project...</a></li>
+					<li><a class="dropdown-item" href="#">Settings</a></li>
+					<li><a class="dropdown-item" href="#">Profile</a></li>
+					<li>
+						<hr class="dropdown-divider">
+					</li>
+					<li><a class="dropdown-item" href="#">Sign out</a></li>
+				</ul> -->
+			</div>
+		</div>
+
+		<!-- Боковое меню2 -->
+		<div class="left_menu left_menu2 d-flex flex-column flex-shrink-0 p-3">
+			<a href="/" class="label_left_menu align-items-center mb-3 mb-md-0 me-md-auto text-decoration-none"
+				style="padding-bottom: 100px; color:#64748B;">
+				<svg style="margin-right:16px" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path d="M8 16L9.41 14.59L3.83 9L16 9V7L3.83 7L9.41 1.41L8 0L0 8L8 16Z" fill="#64748B"/>
+				</svg>
+				<span class="fs-4">На главную</span>
+			</a>
+			<ul class="nav nav2 nav-pills_2 flex-column mb-auto">
+				<li>
+					<a href="#" class="nav-link link-dark_my" aria-current="page">
+						<svg class="bi me-2" width="16" height="16">
+							<use xlink:href="#home"></use>
+						</svg>
+						Услуги
+					</a>
+				</li>
+				<li>
+					<a href="#" class="nav-link link-dark_my">
+						<svg class="bi me-2" width="16" height="16">
+							<use xlink:href="#speedometer2"></use>
+						</svg>
+						Услуги
+					</a>
+				</li>
+				<li>
+					<a href="#" class="nav-link active">
+						<svg class="bi me-2" width="16" height="16">
+							<use xlink:href="#table"></use>
+						</svg>
+						Мои шаблоны
+					</a>
+				</li>
+				<li>
+					<a href="#" class="nav-link link-dark_my">
+						<svg class="bi me-2" width="16" height="16">
+							<use xlink:href="#grid"></use>
+						</svg>
+						Сотрудники
+					</a>
+				</li>
+				<li>
+					<a href="#" class="nav-link link-dark_my">
+						<svg class="bi me-2" width="16" height="16">
+							<use xlink:href="#people-circle"></use>
+						</svg>
+						Финансы
+					</a>
+				</li>
+				<li>
+					<a href="#" class="nav-link link-dark_my">
+						<svg class="bi me-2" width="16" height="16">
+							<use xlink:href="#people-circle"></use>
+						</svg>
+						Аналитика
+					</a>
+				</li>
+			</ul>
+			<!-- <div class="dropdown">
+				<ul class="nav nav-pills flex-column mb-auto">
+					<li class="nav-item">
+						<a href="#" class="nav-link active" aria-current="page">
+							<svg class="bi me-2" width="16" height="16">
+								<use xlink:href="#home"></use>
+							</svg>
+							Настройки
+						</a>
+					</li>
+					<li>
+						<a href="#" class="nav-link link-dark_my">
+							<svg class="bi me-2" width="16" height="16">
+								<use xlink:href="#people-circle"></use>
+							</svg>
+							Выход
+						</a>
+					</li>
+				</ul> -->
+				<!-- <ul class="dropdown-menu text-small shadow" aria-labelledby="dropdownUser2">
+					<li><a class="dropdown-item" href="#">New project...</a></li>
+					<li><a class="dropdown-item" href="#">Settings</a></li>
+					<li><a class="dropdown-item" href="#">Profile</a></li>
+					<li>
+						<hr class="dropdown-divider">
+					</li>
+					<li><a class="dropdown-item" href="#">Sign out</a></li>
+				</ul> -->
+			</div>
+		</div>
+
+		<div class="left_main_block">
+
+			<!-- Хэдэр -->
+			<header class="p-3 mb-3 border-bottom">
+				<div class="container header">
+					<div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+						<a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-dark text-decoration-none">
+							<svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap">
+								<use xlink:href="#bootstrap"></use>
+							</svg>
+						</a>
+
+						<!-- <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+					  <li><a href="#" class="nav-link px-2 link-secondary">Overview</a></li>
+					  <li><a href="#" class="nav-link px-2 link-dark">Inventory</a></li>
+					  <li><a href="#" class="nav-link px-2 link-dark">Customers</a></li>
+					  <li><a href="#" class="nav-link px-2 link-dark">Products</a></li>
+					</ul> -->
+
+						<form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
+							<input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+						</form>
+
+						<div class="dropdown text-end">
+							<a href="#" class="d-block link-dark text-decoration-none dropdown-toggle"
+								id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
+								<img src="https://github.com/mdo.png" alt="mdo" width="32" height="32"
+									class="rounded-circle">
+							</a>
+							<ul class="dropdown-menu text-small" aria-labelledby="dropdownUser1">
+								<li><a class="dropdown-item" href="#">New project...</a></li>
+								<li><a class="dropdown-item" href="#">Settings</a></li>
+								<li><a class="dropdown-item" href="#">Profile</a></li>
+								<li>
+									<hr class="dropdown-divider">
+								</li>
+								<li><a class="dropdown-item" href="#">Sign out</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</header>
+
+			<div class="main_big_block">
+
+			</div>
+		</div>
+	</main>
+</body>
+
+</html>
