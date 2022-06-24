@@ -17,6 +17,7 @@ header{
 	position: fixed;
     left: 474px;
     width: calc(100% - 474px);
+	z-index: 1;
 }
 
 .container, .container-sm {
