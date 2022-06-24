@@ -44,11 +44,15 @@
 }
 
 /* Правое меню */
-.left_menu2{
+.left_menu2 {
 	background: #F8FAFC;
     color: #64748B;
     border-right: 1px solid rgba(100, 116, 139, 0.12);
     left: 237px;
+
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 15px;
 }
 
 .link-dark_my {
@@ -90,4 +94,8 @@
 
 
     color: #64748B;
+}
+
+.pd-left {
+    padding-left: 20px;
 }

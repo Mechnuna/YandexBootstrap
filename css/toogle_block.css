@@ -1,0 +1,15 @@
+.toogle_block  {
+	margin-top: 45px;
+}
+
+.toogle_block h2{
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 24px;
+
+	/* Steel Gray/900 */
+
+	color: #0F172A;
+}

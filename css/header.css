@@ -11,3 +11,42 @@
 	line-height: 18px;
 	margin-left: 16px;
 }
+
+.header_acc_icon {
+	display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    width: 64px;
+	margin: 0px 40px 0px 40px;
+}
+
+.search {
+	display: inline-flex;
+	align-items: center;
+	border: 1px solid #E2E8F0;
+	border-radius: 24px;
+	padding: 9px 16px;
+	background: #F8FAFC;
+	color: #94A3B8;
+}
+
+.search-icon {
+	width: 20px;
+	height: 20px;
+	margin-right: 10px;
+	order: 1;
+}
+
+.search-field {
+	width: 217px;
+	border: 0;
+	background: #F8FAFC;
+}
+
+.search-field:focus {
+	outline: none;
+}
+
+.search-field:focus + .search-icon {
+
+}

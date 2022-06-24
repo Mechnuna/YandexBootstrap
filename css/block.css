@@ -33,3 +33,7 @@
 	width: 217px;
 	height: 36px;
 }
+
+.block_hidden svg {
+	margin-left: 12px;
+}

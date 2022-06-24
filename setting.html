@@ -17,6 +17,7 @@
 	<link href="css/time_select.css" rel="stylesheet">
 	<link href="css/toogle.css" rel="stylesheet">
 	<link href="css/block.css" rel="stylesheet">
+	<link href="css/toogle_block.css" rel="stylesheet">
 
 	<!-- Пакет JavaScript с Popper -->
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
@@ -132,24 +133,6 @@
 				</li>
 			</ul>
 			<div class="dropdown">
-				<!-- <a href="#" class="d-flex align-items-center link-light text-decoration-none" id="dropdownUser2"
-					data-bs-toggle="dropdown" aria-expanded="false">
-					<svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-						<path
-							d="M3.0001 0.600006C1.67461 0.600006 0.600098 1.67452 0.600098 3.00001V5.40001C0.600098 6.72549 1.67461 7.80001 3.0001 7.80001H5.4001C6.72558 7.80001 7.8001 6.72549 7.8001 5.40001V3.00001C7.8001 1.67452 6.72558 0.600006 5.4001 0.600006H3.0001Z"
-							fill="white" />
-						<path
-							d="M3.0001 10.2C1.67461 10.2 0.600098 11.2745 0.600098 12.6V15C0.600098 16.3255 1.67461 17.4 3.0001 17.4H5.4001C6.72558 17.4 7.8001 16.3255 7.8001 15V12.6C7.8001 11.2745 6.72558 10.2 5.4001 10.2H3.0001Z"
-							fill="white" />
-						<path
-							d="M10.2001 3.00001C10.2001 1.67452 11.2746 0.600006 12.6001 0.600006H15.0001C16.3256 0.600006 17.4001 1.67452 17.4001 3.00001V5.40001C17.4001 6.72549 16.3256 7.80001 15.0001 7.80001H12.6001C11.2746 7.80001 10.2001 6.72549 10.2001 5.40001V3.00001Z"
-							fill="white" />
-						<path
-							d="M10.2001 12.6C10.2001 11.2745 11.2746 10.2 12.6001 10.2H15.0001C16.3256 10.2 17.4001 11.2745 17.4001 12.6V15C17.4001 16.3255 16.3256 17.4 15.0001 17.4H12.6001C11.2746 17.4 10.2001 16.3255 10.2001 15V12.6Z"
-							fill="white" />
-					</svg>
-					<p>Настройки</p>
-				</a> -->
 				<ul class="nav nav-pills_1 flex-column mb-auto">
 				<li>
 					<a href="#" class="nav-link link-light">
@@ -182,15 +165,6 @@
 					</a>
 				</li>
 				</ul>
-				<!-- <ul class="dropdown-menu text-small shadow" aria-labelledby="dropdownUser2">
-					<li><a class="dropdown-item" href="#">New project...</a></li>
-					<li><a class="dropdown-item" href="#">Settings</a></li>
-					<li><a class="dropdown-item" href="#">Profile</a></li>
-					<li>
-						<hr class="dropdown-divider">
-					</li>
-					<li><a class="dropdown-item" href="#">Sign out</a></li>
-				</ul> -->
 			</div>
 		</div>
 
@@ -222,7 +196,7 @@
 					</a>
 				</li>
 				<li>
-					<a href="#" class="nav-link active" aria-current="page">
+					<a href="/index.html" class="nav-link link-dark_my" aria-current="page">
 						<svg class="bi me-2" width="16" height="16">
 							<use xlink:href="#home"></use>
 						</svg>
@@ -230,7 +204,7 @@
 					</a>
 				</li>
 				<li>
-					<a href="notif_setting.html" class="nav-link link-dark_my">
+					<a href="/notif_setting.html" class="nav-link link-dark_my">
 						<svg class="bi me-2" width="16" height="16">
 							<use xlink:href="#grid"></use>
 						</svg>
@@ -238,7 +212,7 @@
 					</a>
 				</li>
 				<li>
-					<a href="setting.html" class="nav-link link-dark_my">
+					<a href="#" class="nav-link active">
 						<svg class="bi me-2" width="16" height="16">
 							<use xlink:href="#people-circle"></use>
 						</svg>
@@ -310,34 +284,6 @@
 					</a>
 				</li>
 			</ul>
-			<!-- <div class="dropdown">
-				<ul class="nav nav-pills flex-column mb-auto">
-					<li class="nav-item">
-						<a href="#" class="nav-link active" aria-current="page">
-							<svg class="bi me-2" width="16" height="16">
-								<use xlink:href="#home"></use>
-							</svg>
-							Настройки
-						</a>
-					</li>
-					<li>
-						<a href="#" class="nav-link link-dark_my">
-							<svg class="bi me-2" width="16" height="16">
-								<use xlink:href="#people-circle"></use>
-							</svg>
-							Выход
-						</a>
-					</li>
-				</ul> -->
-				<!-- <ul class="dropdown-menu text-small shadow" aria-labelledby="dropdownUser2">
-					<li><a class="dropdown-item" href="#">New project...</a></li>
-					<li><a class="dropdown-item" href="#">Settings</a></li>
-					<li><a class="dropdown-item" href="#">Profile</a></li>
-					<li>
-						<hr class="dropdown-divider">
-					</li>
-					<li><a class="dropdown-item" href="#">Sign out</a></li>
-				</ul> -->
 			</div>
 		</div>
 
@@ -349,7 +295,6 @@
 					<div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
 
 						<form class="search">
-							<!-- <input type="search" class="form-control " placeholder="Найти" aria-label="Search"> -->
 							<input type="search" class="search-field" placeholder="Найти" aria-label="Search">
 							<svg class=""search-icon width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
 								<path d="M17.5 17.5L12.5 12.5M14.1667 8.33333C14.1667 11.555 11.555 14.1667 8.33333 14.1667C5.11167 14.1667 2.5 11.555 2.5 8.33333C2.5 5.11167 5.11167 2.5 8.33333 2.5C11.555 2.5 14.1667 5.11167 14.1667 8.33333Z" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -391,179 +336,61 @@
 			</header>
 
 			<div class="main_big_block">
-				<div class="container-fluid pb-3">
+				<div class="container-fluid pd-left">
 					<div class="main_title">
-						<span>Шаблоны</span>
-						<a class="btn title_button" href="#" role="button">Новая категория</a>
+						<span>Настройки</span>
 					</div>
-					<div class="d-grid gap-3" style="grid-template-columns: 2fr 2fr;">
-					  <div class="bg-light border rounded-3">
-						<div class="block">
-						<span class="block_label">Услуги</span>
-						<div id="block-1">
-							<div class="cell_drag">
-								<div class="block_show">
-									<svg class="block_icon" width="18" height="14" viewBox="0 0 18 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-										<path d="M1 1H17M1 5H17M1 9H17M1 13H17" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-									</svg>	
-									<span>Женская стижка</span>
-								</div>
-								<div class="block_hidden">
-									<svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-										<path d="M13.2322 3.23223L16.7678 6.76777M14.7322 1.73223C15.7085 0.755922 17.2915 0.755922 18.2678 1.73223C19.2441 2.70854 19.2441 4.29146 18.2678 5.26777L4.50006 19.0355H1.00006V15.4644L14.7322 1.73223Z" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-									</svg>
-									<svg width="18" height="20" viewBox="0 0 18 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-										<path d="M16 5L15.1327 17.1425C15.0579 18.1891 14.187 19 13.1378 19H4.86224C3.81296 19 2.94208 18.1891 2.86732 17.1425L2 5M7 9V15M11 9V15M12 5V2C12 1.44772 11.5523 1 11 1H7C6.44772 1 6 1.44772 6 2V5M1 5H17" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-									</svg>
-								</div>
-							</div>
-							<div class="cell_drag">
-								<div class="block_show">
-									<svg class="block_icon" width="18" height="14" viewBox="0 0 18 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-										<path d="M1 1H17M1 5H17M1 9H17M1 13H17" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-									</svg>	
-									<span>Мужская стижка</span>
-								</div>
-								<div class="block_hidden">
-									<svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-										<path d="M13.2322 3.23223L16.7678 6.76777M14.7322 1.73223C15.7085 0.755922 17.2915 0.755922 18.2678 1.73223C19.2441 2.70854 19.2441 4.29146 18.2678 5.26777L4.50006 19.0355H1.00006V15.4644L14.7322 1.73223Z" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-									</svg>
-									<svg width="18" height="20" viewBox="0 0 18 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-										<path d="M16 5L15.1327 17.1425C15.0579 18.1891 14.187 19 13.1378 19H4.86224C3.81296 19 2.94208 18.1891 2.86732 17.1425L2 5M7 9V15M11 9V15M12 5V2C12 1.44772 11.5523 1 11 1H7C6.44772 1 6 1.44772 6 2V5M1 5H17" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-									</svg>
-								</div>
-							</div>
-							<div class="cell_drag" id="add">
-								<div class="block_show">
-									<svg class="block_icon" width="18" height="14" viewBox="0 0 18 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-										<path d="M1 1H17M1 5H17M1 9H17M1 13H17" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-									</svg>	
-									<span>Окрашивание</span>
-								</div>
-								<div class="block_hidden">
-									<svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-										<path d="M13.2322 3.23223L16.7678 6.76777M14.7322 1.73223C15.7085 0.755922 17.2915 0.755922 18.2678 1.73223C19.2441 2.70854 19.2441 4.29146 18.2678 5.26777L4.50006 19.0355H1.00006V15.4644L14.7322 1.73223Z" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-									</svg>
-									<svg  width="18" height="20" viewBox="0 0 18 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-										<path d="M16 5L15.1327 17.1425C15.0579 18.1891 14.187 19 13.1378 19H4.86224C3.81296 19 2.94208 18.1891 2.86732 17.1425L2 5M7 9V15M11 9V15M12 5V2C12 1.44772 11.5523 1 11 1H7C6.44772 1 6 1.44772 6 2V5M1 5H17" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-									</svg>
-								</div>
-							</div>
-						</div>
-						<button type="button" class="btn btn-outline-secondary btn_block" id="add_services">Добавить</button>
-						</div>
+					<div class="toogle_block">
+						<h2>Интерфейс</h2>
 
-					  </div>
-					  <div class="bg-light border rounded-3">
-						<div class="block">
-							<span class="block_label">Коментарии</span>
-							<div class="cell_drag">
-								<div class="block_show">
-									<svg class="block_icon" width="18" height="14" viewBox="0 0 18 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-										<path d="M1 1H17M1 5H17M1 9H17M1 13H17" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-									</svg>	
-									<span>Назначить мастера</span>
-								</div>
-								<div class="block_hidden">
-									<svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-										<path d="M13.2322 3.23223L16.7678 6.76777M14.7322 1.73223C15.7085 0.755922 17.2915 0.755922 18.2678 1.73223C19.2441 2.70854 19.2441 4.29146 18.2678 5.26777L4.50006 19.0355H1.00006V15.4644L14.7322 1.73223Z" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-									</svg>
-									<svg width="18" height="20" viewBox="0 0 18 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-										<path d="M16 5L15.1327 17.1425C15.0579 18.1891 14.187 19 13.1378 19H4.86224C3.81296 19 2.94208 18.1891 2.86732 17.1425L2 5M7 9V15M11 9V15M12 5V2C12 1.44772 11.5523 1 11 1H7C6.44772 1 6 1.44772 6 2V5M1 5H17" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-									</svg>
-								</div>
-							</div>
-							<div class="cell_drag">
-								<div class="block_show">
-									<svg class="block_icon" width="18" height="14" viewBox="0 0 18 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-										<path d="M1 1H17M1 5H17M1 9H17M1 13H17" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-									</svg>	
-									<span>Клиент отказ</span>
-								</div>
-								<div class="block_hidden">
-									<svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-										<path d="M13.2322 3.23223L16.7678 6.76777M14.7322 1.73223C15.7085 0.755922 17.2915 0.755922 18.2678 1.73223C19.2441 2.70854 19.2441 4.29146 18.2678 5.26777L4.50006 19.0355H1.00006V15.4644L14.7322 1.73223Z" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-									</svg>
-									<svg width="18" height="20" viewBox="0 0 18 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-										<path d="M16 5L15.1327 17.1425C15.0579 18.1891 14.187 19 13.1378 19H4.86224C3.81296 19 2.94208 18.1891 2.86732 17.1425L2 5M7 9V15M11 9V15M12 5V2C12 1.44772 11.5523 1 11 1H7C6.44772 1 6 1.44772 6 2V5M1 5H17" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-									</svg>
-								</div>
-							</div>
-							<button type="button" class="btn btn-outline-secondary btn_block">Добавить</button>
-							</div>
-					  </div>
-					  <div class="bg-light border rounded-3">
-						<div class="block">
-							<span class="block_label">Сотрудники</span>
-							<div class="cell_drag">
-								<div class="block_show">
-									<svg class="block_icon" width="18" height="14" viewBox="0 0 18 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-										<path d="M1 1H17M1 5H17M1 9H17M1 13H17" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-									</svg>	
-									<span>Нов.сообщ. day off #1</span>
-								</div>
-								<div class="block_hidden">
-									<svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-										<path d="M13.2322 3.23223L16.7678 6.76777M14.7322 1.73223C15.7085 0.755922 17.2915 0.755922 18.2678 1.73223C19.2441 2.70854 19.2441 4.29146 18.2678 5.26777L4.50006 19.0355H1.00006V15.4644L14.7322 1.73223Z" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-									</svg>
-									<svg width="18" height="20" viewBox="0 0 18 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-										<path d="M16 5L15.1327 17.1425C15.0579 18.1891 14.187 19 13.1378 19H4.86224C3.81296 19 2.94208 18.1891 2.86732 17.1425L2 5M7 9V15M11 9V15M12 5V2C12 1.44772 11.5523 1 11 1H7C6.44772 1 6 1.44772 6 2V5M1 5H17" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-									</svg>
-								</div>
-							</div>
-							<div class="cell_drag">
-								<div class="block_show">
-									<svg class="block_icon" width="18" height="14" viewBox="0 0 18 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-										<path d="M1 1H17M1 5H17M1 9H17M1 13H17" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-									</svg>	
-									<span>Нов.сообщ. day off #2</span>
-								</div>
-								<div class="block_hidden">
-									<svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-										<path d="M13.2322 3.23223L16.7678 6.76777M14.7322 1.73223C15.7085 0.755922 17.2915 0.755922 18.2678 1.73223C19.2441 2.70854 19.2441 4.29146 18.2678 5.26777L4.50006 19.0355H1.00006V15.4644L14.7322 1.73223Z" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-									</svg>
-									<svg width="18" height="20" viewBox="0 0 18 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-										<path d="M16 5L15.1327 17.1425C15.0579 18.1891 14.187 19 13.1378 19H4.86224C3.81296 19 2.94208 18.1891 2.86732 17.1425L2 5M7 9V15M11 9V15M12 5V2C12 1.44772 11.5523 1 11 1H7C6.44772 1 6 1.44772 6 2V5M1 5H17" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-									</svg>
-								</div>
-							</div>
-							<div class="cell_drag">
-								<div class="block_show">
-									<svg class="block_icon" width="18" height="14" viewBox="0 0 18 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-										<path d="M1 1H17M1 5H17M1 9H17M1 13H17" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-									</svg>	
-									<span>Шаблон новому сотруднику</span>
-								</div>
-								<div class="block_hidden">
-									<svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-										<path d="M13.2322 3.23223L16.7678 6.76777M14.7322 1.73223C15.7085 0.755922 17.2915 0.755922 18.2678 1.73223C19.2441 2.70854 19.2441 4.29146 18.2678 5.26777L4.50006 19.0355H1.00006V15.4644L14.7322 1.73223Z" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-									</svg>
-									<svg width="18" height="20" viewBox="0 0 18 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-										<path d="M16 5L15.1327 17.1425C15.0579 18.1891 14.187 19 13.1378 19H4.86224C3.81296 19 2.94208 18.1891 2.86732 17.1425L2 5M7 9V15M11 9V15M12 5V2C12 1.44772 11.5523 1 11 1H7C6.44772 1 6 1.44772 6 2V5M1 5H17" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-									</svg>
-								</div>
-							</div>
-							<div class="cell_drag">
-								<div class="block_show">
-									<svg class="block_icon" width="18" height="14" viewBox="0 0 18 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-										<path d="M1 1H17M1 5H17M1 9H17M1 13H17" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-									</svg>	
-									<span>Рассылка всем сотрудникам</span>
-								</div>
-								<div class="block_hidden">
-									<svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-										<path d="M13.2322 3.23223L16.7678 6.76777M14.7322 1.73223C15.7085 0.755922 17.2915 0.755922 18.2678 1.73223C19.2441 2.70854 19.2441 4.29146 18.2678 5.26777L4.50006 19.0355H1.00006V15.4644L14.7322 1.73223Z" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-									</svg>
-									<svg width="18" height="20" viewBox="0 0 18 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-										<path d="M16 5L15.1327 17.1425C15.0579 18.1891 14.187 19 13.1378 19H4.86224C3.81296 19 2.94208 18.1891 2.86732 17.1425L2 5M7 9V15M11 9V15M12 5V2C12 1.44772 11.5523 1 11 1H7C6.44772 1 6 1.44772 6 2V5M1 5H17" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-									</svg>
-								</div>
-							</div>
-							<button type="button" class="btn btn-outline-secondary btn_block">Добавить</button>
-							</div>
-					  </div>
+						<div class="container-toogle">
+							<input type="checkbox" name="toggle" id="toggle-button" class="toggle-button">
+							<span class="toogle_label">Оформление как в системе</span>
+						</div>
 					</div>
-				  </div>
+
+					<div class="toogle_block">
+						<h2>Часовой пояс</h2>
+
+						<div class="container-toogle">
+							<input type="checkbox" name="toggle" id="toggle-button" class="toggle-button">
+							<span class="toogle_label">Определять время автоматически</span>
+						</div>
+					</div>
+
+					<div class="time_select time_select_off">
+						<label for="country" class="form_label">Часовой пояс</label>
+						<select class="form-select form-select-off" id="country" required="">
+						  <option value="">(GMT +03.00) Москва, Санкт-Петербург</option>
+						  <option>(GMT +02.00) Калининград, Свердловск</option>
+						</select>
+					</div>
+
+					<div class="time_select">
+						<label for="country" class="form_label">Отображение времени</label>
+						<select class="form-select" id="country" required="">
+						  <option value="">24-часовой формат (12:00)</option>
+						  <option>12-часовой формат (12:00)г</option>
+						</select>
+					</div>
+
+					<div class="toogle_block">
+						<h2>Основные</h2>
+
+						<div class="container-toogle">
+							<input type="checkbox" name="toggle" id="toggle-button" class="toggle-button">
+							<span class="toogle_label">Системные уведомления</span>
+						</div>
+						<div class="container-toogle">
+							<input type="checkbox" name="toggle" id="toggle-button" class="toggle-button">
+							<span class="toogle_label">Регистрация новых клиентов</span>
+						</div>
+						<div class="container-toogle">
+							<input type="checkbox" name="toggle" id="toggle-button" class="toggle-button">
+							<span class="toogle_label">Новые заявки от клиентов</span>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</main>
