@@ -18,3 +18,8 @@ header{
     left: 474px;
     width: calc(100% - 474px);
 }
+
+.container, .container-sm {
+    max-width: 540px;
+	min-width: 653px;
+}
