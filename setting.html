@@ -354,18 +354,24 @@
 						<h2>Часовой пояс</h2>
 
 						<div class="container-toogle">
-							<input type="checkbox" name="toggle" id="toggle-button" class="toggle-button">
+							<input type="checkbox" name="toggle" id="toggle-button" class="toggle-button" onclick="toggle('time_form','time_select')">
 							<span class="toogle_label">Определять время автоматически</span>
 						</div>
 					</div>
 
-					<div class="time_select time_select_off">
+					<div class="time_select time_select_off" id="time_select">
 						<label for="country" class="form_label">Часовой пояс</label>
-						<select class="form-select form-select-off" id="country" required="">
+						<select class="form-select form-select-off" id="time_form" required="">
 						  <option value="">(GMT +03.00) Москва, Санкт-Петербург</option>
 						  <option>(GMT +02.00) Калининград, Свердловск</option>
 						</select>
 					</div>
+					
+					<script>
+						const checkValue = val => {
+    						document.getElementById('time_form','time_select').disabled = val === '';
+						}
+					</script>
 
 					<div class="time_select">
 						<label for="country" class="form_label">Отображение времени</label>
@@ -396,6 +402,7 @@
 		</div>
 	</main>
 	<script src="js/createElem.js"></script>
+	<script src="js/toogle.js"></script>
 </body>
 
 </html>
