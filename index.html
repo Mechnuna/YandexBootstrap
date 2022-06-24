@@ -13,10 +13,15 @@
 	<link href="css/main.css" rel="stylesheet">
 	<link href="css/menu.css" rel="stylesheet">
 	<link href="css/header.css" rel="stylesheet">
+	<link href="css/left_main_block.css" rel="stylesheet">
+	<link href="css/time_select.css" rel="stylesheet">
+	<link href="css/toogle.css" rel="stylesheet">
+	<link href="css/block.css" rel="stylesheet">
 	<!-- Пакет JavaScript с Popper -->
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
 		integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
 		crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 </head>
 
 <body>
@@ -28,7 +33,7 @@
 				<svg style="margin-right: 16px;" width="18" height="14" viewBox="0 0 18 14" fill="none" xmlns="http://www.w3.org/2000/svg">
 					<path d="M1 0C0.447715 0 0 0.447715 0 1C0 1.55228 0.447715 2 1 2V0ZM17 2C17.5523 2 18 1.55228 18 1C18 0.447715 17.5523 0 17 0V2ZM1 6C0.447715 6 0 6.44772 0 7C0 7.55228 0.447715 8 1 8V6ZM17 8C17.5523 8 18 7.55228 18 7C18 6.44772 17.5523 6 17 6V8ZM1 12C0.447715 12 0 12.4477 0 13C0 13.5523 0.447715 14 1 14V12ZM17 14C17.5523 14 18 13.5523 18 13C18 12.4477 17.5523 12 17 12V14ZM1 2H17V0H1V2ZM1 8H17V6H1V8ZM1 14H17V12H1V14Z" fill="white"/>
 					</svg>
-				<span class="fs-4">SPBEAUTY</span>
+				<span class="">SPBEAUTY</span>
 			</a>
 			<hr>
 			<ul class="nav nav1 nav-pills_1 flex-column mb-auto">
@@ -195,7 +200,7 @@
 				<svg style="margin-right:16px" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
 					<path d="M8 16L9.41 14.59L3.83 9L16 9V7L3.83 7L9.41 1.41L8 0L0 8L8 16Z" fill="#64748B"/>
 				</svg>
-				<span class="fs-4">На главную</span>
+				<span class="">На главную</span>
 			</a>
 			<ul class="nav nav2 nav-pills_2 flex-column mb-auto">
 				<li>
@@ -281,7 +286,7 @@
 		<div class="left_main_block">
 
 			<!-- Хэдэр -->
-			<header class="p-3 mb-3 border-bottom">
+			<header class="p-3 mb-3">
 				<div class="container header">
 					<div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
 						<a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-dark text-decoration-none">
@@ -298,7 +303,7 @@
 					</ul> -->
 
 						<form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
-							<input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+							<input type="search" class="form-control" placeholder="Найти" aria-label="Search">
 						</form>
 
 						<div class="dropdown text-end">
@@ -306,6 +311,7 @@
 								id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
 								<img src="https://github.com/mdo.png" alt="mdo" width="32" height="32"
 									class="rounded-circle">
+								<span class="account_name_label">Анотон И.</span>
 							</a>
 							<ul class="dropdown-menu text-small" aria-labelledby="dropdownUser1">
 								<li><a class="dropdown-item" href="#">New project...</a></li>
@@ -322,10 +328,183 @@
 			</header>
 
 			<div class="main_big_block">
+				<div class="container-fluid pb-3">
+					<div class="main_title">
+						<span>Шаблоны</span>
+						<a class="btn title_button" href="#" role="button">Новая категория</a>
+					</div>
+					<div class="d-grid gap-3" style="grid-template-columns: 2fr 2fr;">
+					  <div class="bg-light border rounded-3">
+						<div class="block">
+						<span class="block_label">Услуги</span>
+						<div id="block-1">
+							<div class="cell_drag">
+								<div class="block_show">
+									<svg class="block_icon" width="18" height="14" viewBox="0 0 18 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M1 1H17M1 5H17M1 9H17M1 13H17" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+									</svg>	
+									<span>Женская стижка</span>
+								</div>
+								<div class="block_hidden">
+									<svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M13.2322 3.23223L16.7678 6.76777M14.7322 1.73223C15.7085 0.755922 17.2915 0.755922 18.2678 1.73223C19.2441 2.70854 19.2441 4.29146 18.2678 5.26777L4.50006 19.0355H1.00006V15.4644L14.7322 1.73223Z" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+									</svg>
+									<svg width="18" height="20" viewBox="0 0 18 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M16 5L15.1327 17.1425C15.0579 18.1891 14.187 19 13.1378 19H4.86224C3.81296 19 2.94208 18.1891 2.86732 17.1425L2 5M7 9V15M11 9V15M12 5V2C12 1.44772 11.5523 1 11 1H7C6.44772 1 6 1.44772 6 2V5M1 5H17" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+									</svg>
+								</div>
+							</div>
+							<div class="cell_drag">
+								<div class="block_show">
+									<svg class="block_icon" width="18" height="14" viewBox="0 0 18 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M1 1H17M1 5H17M1 9H17M1 13H17" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+									</svg>	
+									<span>Мужская стижка</span>
+								</div>
+								<div class="block_hidden">
+									<svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M13.2322 3.23223L16.7678 6.76777M14.7322 1.73223C15.7085 0.755922 17.2915 0.755922 18.2678 1.73223C19.2441 2.70854 19.2441 4.29146 18.2678 5.26777L4.50006 19.0355H1.00006V15.4644L14.7322 1.73223Z" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+									</svg>
+									<svg width="18" height="20" viewBox="0 0 18 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M16 5L15.1327 17.1425C15.0579 18.1891 14.187 19 13.1378 19H4.86224C3.81296 19 2.94208 18.1891 2.86732 17.1425L2 5M7 9V15M11 9V15M12 5V2C12 1.44772 11.5523 1 11 1H7C6.44772 1 6 1.44772 6 2V5M1 5H17" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+									</svg>
+								</div>
+							</div>
+							<div class="cell_drag" id="add">
+								<div class="block_show">
+									<svg class="block_icon" width="18" height="14" viewBox="0 0 18 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M1 1H17M1 5H17M1 9H17M1 13H17" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+									</svg>	
+									<span>Окрашивание</span>
+								</div>
+								<div class="block_hidden">
+									<svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M13.2322 3.23223L16.7678 6.76777M14.7322 1.73223C15.7085 0.755922 17.2915 0.755922 18.2678 1.73223C19.2441 2.70854 19.2441 4.29146 18.2678 5.26777L4.50006 19.0355H1.00006V15.4644L14.7322 1.73223Z" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+									</svg>
+									<svg  width="18" height="20" viewBox="0 0 18 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M16 5L15.1327 17.1425C15.0579 18.1891 14.187 19 13.1378 19H4.86224C3.81296 19 2.94208 18.1891 2.86732 17.1425L2 5M7 9V15M11 9V15M12 5V2C12 1.44772 11.5523 1 11 1H7C6.44772 1 6 1.44772 6 2V5M1 5H17" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+									</svg>
+								</div>
+							</div>
+						</div>
+						<button type="button" class="btn btn-outline-secondary btn_block" id="add_services">Добавить</button>
+						</div>
 
+					  </div>
+					  <div class="bg-light border rounded-3">
+						<div class="block">
+							<span class="block_label">Коментарии</span>
+							<div class="cell_drag">
+								<div class="block_show">
+									<svg class="block_icon" width="18" height="14" viewBox="0 0 18 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M1 1H17M1 5H17M1 9H17M1 13H17" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+									</svg>	
+									<span>Назначить мастера</span>
+								</div>
+								<div class="block_hidden">
+									<svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M13.2322 3.23223L16.7678 6.76777M14.7322 1.73223C15.7085 0.755922 17.2915 0.755922 18.2678 1.73223C19.2441 2.70854 19.2441 4.29146 18.2678 5.26777L4.50006 19.0355H1.00006V15.4644L14.7322 1.73223Z" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+									</svg>
+									<svg width="18" height="20" viewBox="0 0 18 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M16 5L15.1327 17.1425C15.0579 18.1891 14.187 19 13.1378 19H4.86224C3.81296 19 2.94208 18.1891 2.86732 17.1425L2 5M7 9V15M11 9V15M12 5V2C12 1.44772 11.5523 1 11 1H7C6.44772 1 6 1.44772 6 2V5M1 5H17" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+									</svg>
+								</div>
+							</div>
+							<div class="cell_drag">
+								<div class="block_show">
+									<svg class="block_icon" width="18" height="14" viewBox="0 0 18 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M1 1H17M1 5H17M1 9H17M1 13H17" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+									</svg>	
+									<span>Клиент отказ</span>
+								</div>
+								<div class="block_hidden">
+									<svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M13.2322 3.23223L16.7678 6.76777M14.7322 1.73223C15.7085 0.755922 17.2915 0.755922 18.2678 1.73223C19.2441 2.70854 19.2441 4.29146 18.2678 5.26777L4.50006 19.0355H1.00006V15.4644L14.7322 1.73223Z" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+									</svg>
+									<svg width="18" height="20" viewBox="0 0 18 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M16 5L15.1327 17.1425C15.0579 18.1891 14.187 19 13.1378 19H4.86224C3.81296 19 2.94208 18.1891 2.86732 17.1425L2 5M7 9V15M11 9V15M12 5V2C12 1.44772 11.5523 1 11 1H7C6.44772 1 6 1.44772 6 2V5M1 5H17" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+									</svg>
+								</div>
+							</div>
+							<button type="button" class="btn btn-outline-secondary btn_block">Добавить</button>
+							</div>
+					  </div>
+					  <div class="bg-light border rounded-3">
+						<div class="block">
+							<span class="block_label">Сотрудники</span>
+							<div class="cell_drag">
+								<div class="block_show">
+									<svg class="block_icon" width="18" height="14" viewBox="0 0 18 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M1 1H17M1 5H17M1 9H17M1 13H17" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+									</svg>	
+									<span>Нов.сообщ. day off #1</span>
+								</div>
+								<div class="block_hidden">
+									<svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M13.2322 3.23223L16.7678 6.76777M14.7322 1.73223C15.7085 0.755922 17.2915 0.755922 18.2678 1.73223C19.2441 2.70854 19.2441 4.29146 18.2678 5.26777L4.50006 19.0355H1.00006V15.4644L14.7322 1.73223Z" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+									</svg>
+									<svg width="18" height="20" viewBox="0 0 18 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M16 5L15.1327 17.1425C15.0579 18.1891 14.187 19 13.1378 19H4.86224C3.81296 19 2.94208 18.1891 2.86732 17.1425L2 5M7 9V15M11 9V15M12 5V2C12 1.44772 11.5523 1 11 1H7C6.44772 1 6 1.44772 6 2V5M1 5H17" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+									</svg>
+								</div>
+							</div>
+							<div class="cell_drag">
+								<div class="block_show">
+									<svg class="block_icon" width="18" height="14" viewBox="0 0 18 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M1 1H17M1 5H17M1 9H17M1 13H17" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+									</svg>	
+									<span>Нов.сообщ. day off #2</span>
+								</div>
+								<div class="block_hidden">
+									<svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M13.2322 3.23223L16.7678 6.76777M14.7322 1.73223C15.7085 0.755922 17.2915 0.755922 18.2678 1.73223C19.2441 2.70854 19.2441 4.29146 18.2678 5.26777L4.50006 19.0355H1.00006V15.4644L14.7322 1.73223Z" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+									</svg>
+									<svg width="18" height="20" viewBox="0 0 18 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M16 5L15.1327 17.1425C15.0579 18.1891 14.187 19 13.1378 19H4.86224C3.81296 19 2.94208 18.1891 2.86732 17.1425L2 5M7 9V15M11 9V15M12 5V2C12 1.44772 11.5523 1 11 1H7C6.44772 1 6 1.44772 6 2V5M1 5H17" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+									</svg>
+								</div>
+							</div>
+							<div class="cell_drag">
+								<div class="block_show">
+									<svg class="block_icon" width="18" height="14" viewBox="0 0 18 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M1 1H17M1 5H17M1 9H17M1 13H17" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+									</svg>	
+									<span>Шаблон новому сотруднику</span>
+								</div>
+								<div class="block_hidden">
+									<svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M13.2322 3.23223L16.7678 6.76777M14.7322 1.73223C15.7085 0.755922 17.2915 0.755922 18.2678 1.73223C19.2441 2.70854 19.2441 4.29146 18.2678 5.26777L4.50006 19.0355H1.00006V15.4644L14.7322 1.73223Z" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+									</svg>
+									<svg width="18" height="20" viewBox="0 0 18 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M16 5L15.1327 17.1425C15.0579 18.1891 14.187 19 13.1378 19H4.86224C3.81296 19 2.94208 18.1891 2.86732 17.1425L2 5M7 9V15M11 9V15M12 5V2C12 1.44772 11.5523 1 11 1H7C6.44772 1 6 1.44772 6 2V5M1 5H17" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+									</svg>
+								</div>
+							</div>
+							<div class="cell_drag">
+								<div class="block_show">
+									<svg class="block_icon" width="18" height="14" viewBox="0 0 18 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M1 1H17M1 5H17M1 9H17M1 13H17" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+									</svg>	
+									<span>Рассылка всем сотрудникам</span>
+								</div>
+								<div class="block_hidden">
+									<svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M13.2322 3.23223L16.7678 6.76777M14.7322 1.73223C15.7085 0.755922 17.2915 0.755922 18.2678 1.73223C19.2441 2.70854 19.2441 4.29146 18.2678 5.26777L4.50006 19.0355H1.00006V15.4644L14.7322 1.73223Z" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+									</svg>
+									<svg width="18" height="20" viewBox="0 0 18 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M16 5L15.1327 17.1425C15.0579 18.1891 14.187 19 13.1378 19H4.86224C3.81296 19 2.94208 18.1891 2.86732 17.1425L2 5M7 9V15M11 9V15M12 5V2C12 1.44772 11.5523 1 11 1H7C6.44772 1 6 1.44772 6 2V5M1 5H17" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+									</svg>
+								</div>
+							</div>
+							<button type="button" class="btn btn-outline-secondary btn_block">Добавить</button>
+							</div>
+					  </div>
+					</div>
+				  </div>
 			</div>
 		</div>
 	</main>
+	<script src="js/createElem.js"></script>
 </body>
 
 </html>

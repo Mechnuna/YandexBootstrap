@@ -1,0 +1,31 @@
+/* Компонент с выбором часового пояса ON*/
+
+.time_select {
+	width: 453px;
+}
+
+.form_label {
+	margin-bottom: 8px;
+	font-family: 'Inter';
+	font-weight: 400;
+	font-size: 13px;
+	color: #94A3B8;
+	line-height: 12px;
+}
+
+.form-select {
+	border-radius: 24px;
+	font-size: 15px;
+	/* background-image: url("../Icons/check_time_icon.svg"); */
+	background-size: 16px 20px;
+}
+
+/* Компонент с выбором часового пояса ON*/
+
+.time_select_off {
+	opacity: .5;
+}
+
+.form-select-off {
+	color: #94A3B8;
+}

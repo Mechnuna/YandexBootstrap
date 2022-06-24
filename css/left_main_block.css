@@ -1,0 +1,26 @@
+.main_title {
+	font-family: 'Inter';
+	font-weight: 500;
+	font-size: 28px;
+	color: #0F172A;
+	display: flex;
+    align-items: center;
+    justify-content: space-between;
+	margin-bottom: 45px;
+}
+
+.title_button {
+	align-items: center;
+	gap: 16px;
+
+	width: 217px;
+	height: 36px;
+	color: white;
+	background: #3B82F6;
+	border-radius: 24px;
+}
+
+.main_big_block {
+	margin-right: 28px;
+	margin-top: 128px;
+}

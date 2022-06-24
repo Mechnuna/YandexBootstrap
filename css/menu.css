@@ -10,6 +10,7 @@
 .left_menu {
 	width: 237px;
 	height: 100vh;
+    position: fixed;
 }
 
 .left_menu1{
@@ -34,7 +35,7 @@
 }
 .nav-link {
     display: block;
-    padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+    padding: 10px 16px 10px 16px;
     font-size: var(--bs-nav-link-font-size);
     font-weight: var(--bs-nav-link-font-weight);
     color: var(--bs-nav-link-color);
@@ -46,6 +47,8 @@
 .left_menu2{
 	background: #F8FAFC;
     color: #64748B;
+    border-right: 1px solid rgba(100, 116, 139, 0.12);
+    left: 237px;
 }
 
 .link-dark_my {
@@ -65,4 +68,26 @@
     color: #64748B;
     --bs-nav-link-color: #64748B;
     --bs-nav-link-hover-color: #64748B;
+}
+
+.form-control {
+    background: #F8FAFC;
+    border: 1px solid #E2E8F0;
+    border-radius: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 15px;
+    color: #94A3B8;
+}
+
+.menu_main_icon {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 100%;
+    /* identical to box height, or 15px */
+
+
+    color: #64748B;
 }

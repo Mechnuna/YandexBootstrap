@@ -3,10 +3,18 @@ main {
 }
 
 .left_main_block {
-	width: calc(100% - 560px);
+	width: calc(100% - 474px);
+	margin-left: 474px;
 }
 
 hr {
 	padding-bottom: 67px;
 	color:#F8FAFC;
+}
+
+header{
+	background: #F8FAFC;
+	position: fixed;
+    left: 474px;
+    width: calc(100% - 474px);
 }

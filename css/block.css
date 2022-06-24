@@ -1,0 +1,35 @@
+.block {
+	margin: 32px;
+}
+
+.block_label {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 20px;
+	color: #0F172A;
+}
+
+.cell_drag {
+	padding: 19px 0px 19px 0px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 18px;
+}
+
+.block_icon {
+	margin-right: 16px;
+}
+
+.btn_block {
+	border: 1px solid #64748B;
+	border-radius: 24px;
+	width: 217px;
+	height: 36px;
+}
