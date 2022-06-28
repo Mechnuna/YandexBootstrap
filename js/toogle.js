@@ -13,7 +13,7 @@ function isHidden(el, el_main) {
     for (var i = 0; i < op.length; i++) {
       op[i].disabled = true;
     }
-    elem.className = "form-select form-select_off";
+    elem.className = "form-select form-select-off";
     elem_main.className = "time_select time_select_off";
   }
 }
