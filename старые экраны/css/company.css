@@ -108,18 +108,22 @@
     margin-bottom: 64px;
 }
 
-.label_profile span {
-    font-weight: 700;
-    margin-top: 8px;
-    color: #2C3540;
+.label_profile p {
+    font-family: 'Arial';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 16px;
+	color: #666787;
+	margin-bottom: 8px;
 }
 
-.label_profile p {
+.label_profile p span{
     
-    font-weight: 400;
-    
-    margin-bottom: 8px;
-    color: #666787;
+    font-weight: 700;
+	font-size: 14px;
+	line-height: 16px;
+	color: #2C3540;
 }
 
 .label {
