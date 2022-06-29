@@ -1,0 +1,146 @@
+.old_title_button {
+	background: #4B759E;
+    border: 1px solid #152842;
+    box-shadow: inset 0px 1px 2px rgb(10 15 26 / 8%);
+    color: white;
+    border-radius: 0px;
+
+    font-size: 15px;
+    text-align: center;
+
+    /* White BG */
+
+    color: #FFFFFF;
+}
+
+.left {
+	margin-left: 189px;
+}
+
+.w144 {
+	width: 144px;
+}
+
+.old_time_select {
+    margin-bottom: 32px;
+    font-size: 14px;
+}
+
+.old_main_title {
+	font-weight: 500;
+	font-size: 28px;
+	color: #0F172A;
+	display: flex;
+    align-items: center;
+	margin-bottom: 45px;
+}
+
+.old-form-select {
+	border-radius: 0px;
+    font-size: 15px;
+    background-size: 16px 20px;
+    background: #D9E2EF;
+    border: 1px solid #152842;
+    box-shadow: inset 0px 1px 2px rgb(10 15 26 / 8%);
+    color: #666787;
+
+
+	display: block;
+    width: 571px;
+    padding: 0.375rem 2.25rem 0.375rem 0.75rem;
+    -moz-padding-start: calc(0.75rem - 3px);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    background-image: url("../../Icons/check_time_icon.svg");
+    background-repeat: no-repeat;
+    background-position: right 0.75rem center;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.old_span_h1 {
+	left: 494px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #2C3540;
+}
+
+.off {
+	background-image: none;
+}
+
+
+.second_block{
+	margin-top: 64px;
+}
+
+.adress_component{
+	display: flex;
+}
+
+.mini_set{
+	width: 50px;
+	height: 39px;
+	background: #F2F2F2;
+	color: #2C3540;
+	border: 1px solid #DFDFDF;
+	box-shadow: inset 0px 1px 2px rgba(10, 15, 26, 0.08);
+	padding: 8px;
+	margin: 0px 4px;
+}
+
+.w65 {
+	width: 465px;
+}
+
+.old_profile {
+    display: flex;
+}
+
+.label_profile{
+    margin-left: 20px;
+    margin-bottom: 64px;
+}
+
+.label_profile span {
+    font-weight: 700;
+    margin-top: 8px;
+    color: #2C3540;
+}
+
+.label_profile p {
+    
+    font-weight: 400;
+    
+    margin-bottom: 8px;
+    color: #666787;
+}
+
+.label {
+    font-family: 'Arial';
+    font-style: normal;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.photo_profile p {
+    font-weight: 400;
+    font-size: 11px;
+    letter-spacing: -0.005em;
+    text-decoration-line: underline;
+    color: #666787;
+
+    width: 98px;
+    height: 13px;
+    text-align: center;
+}
+
+.mb5{
+    margin-bottom: 5px;
+}

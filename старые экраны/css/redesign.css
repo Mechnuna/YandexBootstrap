@@ -1,0 +1,67 @@
+.search_redesign {
+	width: 172px;
+	height: 36px;
+	display: flex;
+	color: #666787;
+	background: #D9E2EF;
+	justify-content: space-between;
+	border: 1px solid #152842;
+	box-shadow: inset 0px 1px 2px rgba(10, 15, 26, 0.08);
+	margin-left: 220px ;
+	margin-right: 9px;
+}
+
+.search_redesign_icon {
+	width: 35px;
+	height: 34px;
+	background: #4B759E;
+}
+
+.search_redesign span{
+	font-family: 'Arial';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 16px;
+	padding: 9px 0px 9px 9px;
+	letter-spacing: -0.005em;
+	color: #666787;
+}
+
+
+.old_redesign {
+	display: flex;
+	width: 335px;
+}
+
+.label_redesign p {
+	font-family: 'Arial';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 16px;
+	color: #666787;
+	margin-bottom: 8px;
+}
+
+.label_redesign p span{
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 16px;
+	color: #2C3540;
+}
+
+b {
+	color: #FC331F;
+	font-weight: 400;
+}
+
+.photo_redesign {
+	display: flex;
+    flex-direction: column;
+	margin-right: 20px;
+}
+
+.mt4 {
+	margin-top: 4px
+}
