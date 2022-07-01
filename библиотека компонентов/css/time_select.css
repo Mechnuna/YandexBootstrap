@@ -30,3 +30,7 @@
 .form-select-off {
 	color: #94A3B8;
 }
+
+.off {
+	background-image: none;
+}

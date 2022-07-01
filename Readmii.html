@@ -11,12 +11,12 @@
 
 
 <!-- <link href="css/main.css" rel="stylesheet"> -->
-	<link href="css/menu.css" rel="stylesheet">
-	<link href="css/left_main_block.css" rel="stylesheet">
-	<link href="css/time_select.css" rel="stylesheet">
-	<link href="css/toogle.css" rel="stylesheet">
-	<link href="css/block.css" rel="stylesheet">
-	<link href="css/toogle_block.css" rel="stylesheet">
+	<link href="библиотека компонентов/css/menu.css" rel="stylesheet">
+	<link href="библиотека компонентов/css/left_main_block.css" rel="stylesheet">
+	<link href="библиотека компонентов/css/time_select.css" rel="stylesheet">
+	<link href="библиотека компонентов/css/toogle.css" rel="stylesheet">
+	<link href="библиотека компонентов/css/block.css" rel="stylesheet">
+	<link href="библиотека компонентов/css/toogle_block.css" rel="stylesheet">
 
 
 	<!-- Favicons -->
@@ -254,6 +254,36 @@
             <option>(GMT +02.00) Калининград, Свердловск</option>
           </select>
         </div>
+
+        <br>
+        <p>Для того чтобы превратить селектор в обычное текстовое поле исправьте тег selector на div <br>
+        и поменяйте option на span и добавьте класс off</p>
+
+        <pre class="prettyprint linenums">
+          <span class="linenums">
+  
+  
+          &lt;div class="time_select time_select_off"</span> <span style="color: #d14;"">id="time_select"</span><span class="linenums"></span>&gt
+            &lt;label for="country" class="form_label"&gtЧасовой пояс&lt;/label&gt
+            &lt;div class="form-select off"</span> <span style="color: #d14;"">id="time_form"</span><span class="linenums"></span>required=""&gt
+              &lt;span value=""&gt(GMT +03.00) Москва, Санкт-Петербург&lt;/span&gt
+            &lt;/div&gt
+          &lt;/div&gt
+          </span>
+        </pre>
+
+        <h3 class="fs-5" >Итог</h3>
+        <div class="prettyprint linenums">
+        <div class="toogle_block">
+          <h2>Часовой пояс</h2>
+        <div class="time_select time_select_off" id="time_select">
+          <label for="country" class="form_label">Часовой пояс</label>
+          <div class="form-selectoff" id="time_form" required="">
+            <span value="">(GMT +03.00) Москва, Санкт-Петербург</span>
+          </div>
+        </div>
+
+
       </div>
     </div>
     </div>
@@ -261,8 +291,8 @@
 </main>
 
 <script src="./Readmii_files/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-<script src="js/createElem.js"></script>
-<script src="js/toogle.js"></script>
+<script src="библиотека компонентов/js/createElem.js"></script>
+<script src="библиотека компонентов/js/toogle.js"></script>
 
 
   
