@@ -1,0 +1,97 @@
+.profile {
+	display: flex;
+}
+
+.new_label_profile {
+	margin-left: 20px;
+}
+
+.new_label_profile span {
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 24px;
+
+	color: #0F172A;
+}
+
+.new_label_profile p {
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 18px;
+
+	color: #64748B;
+}
+
+.table_tag {
+	background: #F8FAFC;
+	border-radius: 4px;
+	font-size: 14px;
+	line-height: 16px;
+	color: #64748B;
+}
+
+.table_tag th {
+	font-weight: 400;
+}
+
+.table_profile {
+	display: flex;
+    align-items: center;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 16px;
+	color: #0F172A;
+	line-height: 64px;
+}
+
+.table_avatar {
+	margin-right: 12px;
+    border-radius: 40px;
+}
+
+td {
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 64px;
+	color: #64748B;
+}
+
+.table_status {
+	margin: 20px 0px;
+	justify-content: center;
+	align-items: center;
+	padding: 4px 8px;
+	gap: 10px;
+
+	width: 66px;
+	height: 24px;
+	line-height: 64px;
+	border-radius: 2px;
+
+	font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    
+    text-align: center;
+}
+
+.grn {
+	background: rgba(20, 184, 166, 0.08);
+	color: #14B8A6;
+}
+
+.yel {
+	background: rgba(245, 158, 11, 0.08);
+	color: #F59E0B;
+}
+
+
+.pink {
+	background: rgba(236, 72, 153, 0.08);
+	color: #EC4899;
+}
+
+
+.table_edit_icon {
+	margin-left: 16px;
+}

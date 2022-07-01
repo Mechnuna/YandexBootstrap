@@ -10,17 +10,14 @@
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
 		integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 
-	<link href="../css/main.css" rel="stylesheet">
-	<link href="../css/menu.css" rel="stylesheet">
-	<link href="../css/header.css" rel="stylesheet">
-	<link href="../css/left_main_block.css" rel="stylesheet">
-	<link href="../css/toogle.css" rel="stylesheet">
-	<link href="../css/block.css" rel="stylesheet">
-
-	<!-- OLD STYLE -->
-	<link rel="stylesheet" href="css/company.css">
-	<link rel="stylesheet" href="css/settings.css">
-	<link rel="stylesheet" href="css/redesign.css">
+	<link href="css/main.css" rel="stylesheet">
+	<link href="css/menu.css" rel="stylesheet">
+	<link href="css/header.css" rel="stylesheet">
+	<link href="css/left_main_block.css" rel="stylesheet">
+	<link href="css/time_select.css" rel="stylesheet">
+	<link href="css/toogle.css" rel="stylesheet">
+	<link href="css/block.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/profile.css">
 
 	<!-- Пакет JavaScript с Popper -->
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
@@ -179,6 +176,7 @@
 							Настройки
 						</a>
 					</li>
+				</ul>
 			</div>
 		</div>
 
@@ -210,7 +208,7 @@
 					</a>
 				</li>
 				<li>
-					<a href="#" class="nav-link link-dark_my" aria-current="page">
+					<a href="#" class="nav-link active" aria-current="page">
 						<svg class="bi me-2" width="16" height="16">
 							<use xlink:href="#home"></use>
 						</svg>
@@ -218,7 +216,7 @@
 					</a>
 				</li>
 				<li>
-					<a href="settings.html" class="nav-link link-dark_my">
+					<a href="notif_setting.html" class="nav-link link-dark_my">
 						<svg class="bi me-2" width="16" height="16">
 							<use xlink:href="#grid"></use>
 						</svg>
@@ -228,7 +226,7 @@
 
 
 				<li>
-					<a href="#" class="nav-link link-dark_my">
+					<a href="setting.html" class="nav-link link-dark_my">
 						<svg class="bi me-2" width="16" height="16">
 							<use xlink:href="#people-circle"></use>
 						</svg>
@@ -252,7 +250,7 @@
 					</a>
 				</li>
 				<li>
-					<a href="company.html" class="nav-link link-dark_my">
+					<a href="#" class="nav-link link-dark_my">
 						<svg class="bi me-2" width="16" height="16">
 							<use xlink:href="#people-circle"></use>
 						</svg>
@@ -260,7 +258,7 @@
 					</a>
 				</li>
 				<li>
-					<a href="#" class="nav-link active">
+					<a href="#" class="nav-link link-dark_my">
 						<svg class="bi me-2" width="16" height="16">
 							<use xlink:href="#people-circle"></use>
 						</svg>
@@ -363,124 +361,107 @@
 			</header>
 
 			<div class="main_big_block">
+
 				<div class="container-fluid pb-3">
-
-					<div class="old_main_title">
-						<span class="old_span_h1">Сотрудники</span>
-						<div class="search_redesign">
-							<span>Найти сотрудника</span>
-							<div class="search_redesign_icon">
-
-							</div>
-						</div>
-						<a class="btn old_title_button" href="#" role="button">Добавить сотрудника</a>
+					<div class="main_title">
+						<span class="span_h1">Данные о компании</span>
+						<a class="btn title_button left" href="#" role="button">Закрыть запись</a>
 					</div>
 
-					<div class="d-grid gap-3" style="grid-template-columns: 1fr 2fr;">
-						<div class="old_redesign">
-							<div class="photo_redesign">
-								<img src="../Icons/avatar.png" alt="">
-								<a class="btn old_title_button mt4" href="#" role="button">Изменить</a>
-								<a class="btn old_title_button mt4" href="#" role="button">Удалить</a>
-							</div>
-							<div class="label_redesign">
-								<p><span>Анастасия К</span></p>
-								<p>E-mail: a.krivcova@spbeauty.net</p>
-								<p>должность <b>парикхмахер</b></p>
-								<p>загрузка: 70%</p>
-								<p>статус: work</p>
-								<p>устройство: 24.09.2021</p>
-							</div>
-
+					<div class="profile">
+						<div class="new_photo_profile">
+							<img src="Icons/avatar_valid.png" alt="">
 						</div>
-						<div class="old_redesign">
-							<div class="photo_redesign">
-								<img src="../Icons/avatar.png" alt="">
-								<a class="btn old_title_button mt4" href="#" role="button">Изменить</a>
-								<a class="btn old_title_button mt4" href="#" role="button">Удалить</a>
-							</div>
-							<div class="label_redesign">
-								<p><span>Анастасия К</span></p>
-								<p>E-mail: a.krivcova@spbeauty.net</p>
-								<p>должность <b>парикхмахер</b></p>
-								<p>загрузка: 70%</p>
-								<p>статус: work</p>
-								<p>устройство: 24.09.2021</p>
-							</div>
-
+						<div class="new_label_profile">
+							<p><span>SPBEAUTY</span></p>
+							<p>Салон красоты</p>
+							<p>Санкт-Петербург, Невский пр-т. 28</p>
 						</div>
-						<div class="old_redesign">
-							<div class="photo_redesign">
-								<img src="../Icons/avatar.png" alt="">
-								<a class="btn old_title_button mt4" href="#" role="button">Изменить</a>
-								<a class="btn old_title_button mt4" href="#" role="button">Удалить</a>
-							</div>
-							<div class="label_redesign">
-								<p><span>Анастасия К</span></p>
-								<p>E-mail: a.krivcova@spbeauty.net</p>
-								<p>должность <b>парикхмахер</b></p>
-								<p>загрузка: 70%</p>
-								<p>статус: work</p>
-								<p>устройство: 24.09.2021</p>
-							</div>
-
-						</div>
-						<div class="old_redesign">
-							<div class="photo_redesign">
-								<img src="../Icons/avatar.png" alt="">
-								<a class="btn old_title_button mt4" href="#" role="button">Изменить</a>
-								<a class="btn old_title_button mt4" href="#" role="button">Удалить</a>
-							</div>
-							<div class="label_redesign">
-								<p><span>Анастасия К</span></p>
-								<p>E-mail: a.krivcova@spbeauty.net</p>
-								<p>должность <b>парикхмахер</b></p>
-								<p>загрузка: 70%</p>
-								<p>статус: work</p>
-								<p>устройство: 24.09.2021</p>
-							</div>
-
-						</div>
-						<div class="old_redesign">
-							<div class="photo_redesign">
-								<img src="../Icons/avatar.png" alt="">
-								<a class="btn old_title_button mt4" href="#" role="button">Изменить</a>
-								<a class="btn old_title_button mt4" href="#" role="button">Удалить</a>
-							</div>
-							<div class="label_redesign">
-								<p><span>Анастасия К</span></p>
-								<p>E-mail: a.krivcova@spbeauty.net</p>
-								<p>должность <b>парикхмахер</b></p>
-								<p>загрузка: 70%</p>
-								<p>статус: work</p>
-								<p>устройство: 24.09.2021</p>
-							</div>
-
-						</div>
-						<div class="old_redesign">
-							<div class="photo_redesign">
-								<img src="../Icons/avatar.png" alt="">
-								<a class="btn old_title_button mt4" href="#" role="button">Изменить</a>
-								<a class="btn old_title_button mt4" href="#" role="button">Удалить</a>
-							</div>
-							<div class="label_redesign">
-								<p><span>Анастасия К</span></p>
-								<p>E-mail: a.krivcova@spbeauty.net</p>
-								<p>должность <b>парикхмахер</b></p>
-								<p>загрузка: 70%</p>
-								<p>статус: work</p>
-								<p>устройство: 24.09.2021</p>
-							</div>
-
-						</div>
-					</div>
-
 
 				</div>
-
-
 			</div>
 		</div>
+		<div class="table-responsive">
+			<table class="table">
+			  <thead>
+				<tr class="table_tag">
+				  <th scope="col">Сотрудник</th>
+				  <th scope="col">E-mail</th>
+				  <th scope="col">Должность</th>
+				  <th scope="col">Загрузка</th>
+				  <th scope="col">Статус</th>
+				  <th scope="col">Устройство</th>
+				</tr>
+			  </thead>
+			  <tbody>
+				<tr>
+				  <td class="table_profile"> <img src='Icons/avatar.png' alt="" width='32px'
+					height='32px' class="table_avatar">  Анастасия К.</td>
+				  <td>a.krivcova@spbeauty.net</td>
+				  <td>Парикхмахер</td>
+				  <td>70%</td>
+				  <td><div class="table_status grn">Work</div></td>
+				  <td>24.09.2021
+						<svg class="table_edit_icon" width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M13.2322 3.23223L16.7678 6.76777M14.7322 1.73223C15.7085 0.755922 17.2915 0.755922 18.2678 1.73223C19.2441 2.70854 19.2441 4.29146 18.2678 5.26777L4.50006 19.0355H1.00006V15.4644L14.7322 1.73223Z" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+						</svg>
+						<svg class="table_edit_icon" width="18" height="20" viewBox="0 0 18 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M16 5L15.1327 17.1425C15.0579 18.1891 14.187 19 13.1378 19H4.86224C3.81296 19 2.94208 18.1891 2.86732 17.1425L2 5M7 9V15M11 9V15M12 5V2C12 1.44772 11.5523 1 11 1H7C6.44772 1 6 1.44772 6 2V5M1 5H17" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+						</svg>
+				  </td>
+				</tr>
+				<tr>
+					<td class="table_profile"> <img src='Icons/avatar.png' alt="" width='32px'
+					  height='32px' class="table_avatar">  Анастасия К.</td>
+					<td>a.krivcova@spbeauty.net</td>
+					<td>Парикхмахер</td>
+					<td>70%</td>
+					<td><div class="table_status grn">Work</div></td>
+					<td>24.09.2021
+						  <svg class="table_edit_icon" width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+							  <path d="M13.2322 3.23223L16.7678 6.76777M14.7322 1.73223C15.7085 0.755922 17.2915 0.755922 18.2678 1.73223C19.2441 2.70854 19.2441 4.29146 18.2678 5.26777L4.50006 19.0355H1.00006V15.4644L14.7322 1.73223Z" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+						  </svg>
+						  <svg class="table_edit_icon" width="18" height="20" viewBox="0 0 18 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+							  <path d="M16 5L15.1327 17.1425C15.0579 18.1891 14.187 19 13.1378 19H4.86224C3.81296 19 2.94208 18.1891 2.86732 17.1425L2 5M7 9V15M11 9V15M12 5V2C12 1.44772 11.5523 1 11 1H7C6.44772 1 6 1.44772 6 2V5M1 5H17" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+						  </svg>
+					</td>
+				  </tr>
+				  <tr>
+					<td class="table_profile"> <img src='Icons/avatar.png' alt="" width='32px'
+					  height='32px' class="table_avatar">  Анастасия К.</td>
+					<td>a.krivcova@spbeauty.net</td>
+					<td>Парикхмахер</td>
+					<td>70%</td>
+					<td><div class="table_status pink">Vacation</div></td>
+					<td>24.09.2021
+						  <svg class="table_edit_icon" width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+							  <path d="M13.2322 3.23223L16.7678 6.76777M14.7322 1.73223C15.7085 0.755922 17.2915 0.755922 18.2678 1.73223C19.2441 2.70854 19.2441 4.29146 18.2678 5.26777L4.50006 19.0355H1.00006V15.4644L14.7322 1.73223Z" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+						  </svg>
+						  <svg class="table_edit_icon" width="18" height="20" viewBox="0 0 18 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+							  <path d="M16 5L15.1327 17.1425C15.0579 18.1891 14.187 19 13.1378 19H4.86224C3.81296 19 2.94208 18.1891 2.86732 17.1425L2 5M7 9V15M11 9V15M12 5V2C12 1.44772 11.5523 1 11 1H7C6.44772 1 6 1.44772 6 2V5M1 5H17" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+						  </svg>
+					</td>
+				  </tr>
+				  <tr>
+					<td class="table_profile"> <img src='Icons/avatar.png' alt="" width='32px'
+					  height='32px' class="table_avatar">  Анастасия К.</td>
+					<td>a.krivcova@spbeauty.net</td>
+					<td>Парикхмахер</td>
+					<td>70%</td>
+					<td><div class="table_status yel">Day off</div></td>
+					<td>24.09.2021
+						  <svg class="table_edit_icon" width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+							  <path d="M13.2322 3.23223L16.7678 6.76777M14.7322 1.73223C15.7085 0.755922 17.2915 0.755922 18.2678 1.73223C19.2441 2.70854 19.2441 4.29146 18.2678 5.26777L4.50006 19.0355H1.00006V15.4644L14.7322 1.73223Z" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+						  </svg>
+						  <svg class="table_edit_icon" width="18" height="20" viewBox="0 0 18 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+							  <path d="M16 5L15.1327 17.1425C15.0579 18.1891 14.187 19 13.1378 19H4.86224C3.81296 19 2.94208 18.1891 2.86732 17.1425L2 5M7 9V15M11 9V15M12 5V2C12 1.44772 11.5523 1 11 1H7C6.44772 1 6 1.44772 6 2V5M1 5H17" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+						  </svg>
+					</td>
+				  </tr>
+			  </tbody>
+			</table>
+		  </div>
 	</main>
 </body>
+
 </html>
