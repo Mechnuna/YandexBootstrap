@@ -17,7 +17,8 @@
 |selector.html   | компоненты селекторов и переключателями,которые привязаны к селекторам |
 |table.html      | компонент таблички и аватарки профиля компании|
 
-[Ссылка](https://mechnuna.github.io/YandexBootstrap/%D0%B1%D0%B8%D0%B1%D0%BB%D0%B8%D0%BE%D1%82%D0%B5%D0%BA%D0%B0%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%BE%D0%BD%D0%B5%D0%BD%D1%82%D0%BE%D0%B2/index.html) для просмотра библиотеки компонентов 
+[Ссылка](https://mechnuna.github.io/YandexBootstrap/%D0%B1%D0%B8%D0%B1%D0%BB%D0%B8%D0%BE%D1%82%D0%B5%D0%BA%D0%B0%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%BE%D0%BD%D0%B5%D0%BD%D1%82%D0%BE%D0%B2/index.html) для просмотра библиотеки компонентов
+(Кликабельны кнопки на сайдбаре: Мои шаблоны, Уведомления, Настройки, Данные о компании)
 
 ## Инструкция
 Иструкция как работать с компонентами лежит [здесь](https://mechnuna.github.io/YandexBootstrap/Readmii.html)
